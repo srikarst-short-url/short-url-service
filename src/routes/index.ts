@@ -7,3 +7,6 @@ router.get("/", async (req: Request, res: Response) => {
 });
 
 export { router as indexRouter };
+
+export * from "./long-to-short";
+export * from "./short-to-long";
